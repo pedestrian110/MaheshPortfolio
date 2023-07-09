@@ -1,5 +1,5 @@
 import React,{ useState } from 'react'
-import {FaBars,Fatimes} from "react-icons/fa";
+import {FaBars,FaTimes} from "react-icons/fa";
 const NavBar = () => {
     const [nav,setNav]=useState(false);
     const links=[
@@ -39,7 +39,7 @@ const NavBar = () => {
            
         </ul>
         <div onClick={() => setNav(!nav)}className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
-            {nav ? <faTimes size={30}/>: <FaBars size={30}/>}
+            {nav ? <FaTimes size={30}/>: <FaBars size={30}/>}
         </div>
 
         {nav &&(<ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-blac to-gray-800 text-gray-500">
