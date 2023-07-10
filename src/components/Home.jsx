@@ -6,8 +6,8 @@ const Home = () => {
     <div class="home" className=" h-screen w-full bg-gradient-to-b from-black to-gray-800 text-white ">
       <div className="max-w-screen-lg mx-auto flex flex-col items-centre justify-centre h-full px-4 md:flex-row">
            <div className="flex flex-col justify-centre h-full">
-              <h2 className="text-4xl sm:text-7xl font-bold text-white">I am Full stack developer</h2>
-              <p className="text-gray-500 py-4 max-w-md">I am doing stuffs releted to cp and ai 
+              <h2 className="py-20 text-4xl sm:text-7xl font-bold text-white">I am Full stack developer</h2>
+              <p className="text-gray-500 py-2 max-w-md">I am doing stuffs releted to cp and ai 
                 and also open source ,
                 understanding how tech stack are use in tech company
                 I am doing stuffs releted to cp and ai 
@@ -24,7 +24,7 @@ const Home = () => {
            </div>
            <div>
               <img src={HeroImg} alt="my profile"
-              className="rounded-2xl mx-auto w-1/2 md:w-full "/>
+              className="py-20 rounded-2xl mx-auto w-1/2 md:w-full "/>
            </div>
       </div>
       
