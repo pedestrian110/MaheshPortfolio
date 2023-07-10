@@ -1,9 +1,9 @@
 import React from "react";
-import HeroImg from "../assets/picture/myimg.jpg";//this is the way to import image from other folder
+import HeroImg from "../assets/picture/my_img.jpg";//this is the way to import image from other folder
 import {AiOutlineArrowRight} from "react-icons/ai";// "ai" is first two letters of AiOutlineArrowRight
 const Home = () => {
   return (
-    <div class="home" className="py-40 h-screen w-full bg-gradient-to-b from-black to-gray-800 text-white ">
+    <div class="home" className=" h-screen w-full bg-gradient-to-b from-black to-gray-800 text-white ">
       <div className="max-w-screen-lg mx-auto flex flex-col items-centre justify-centre h-full px-4 md:flex-row">
            <div className="flex flex-col justify-centre h-full">
               <h2 className="text-4xl sm:text-7xl font-bold text-white">I am Full stack developer</h2>
