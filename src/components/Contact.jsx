@@ -2,13 +2,13 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div name='contact' className="py-40 w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white">
-      <div className="flex flex-cols p-4 justify-center max-w-screen-lg mx-auto h-full">
+    <div name='contact' className="pt-8 w-full h-screen bg-gradient-to-b from-black to-gray-800  text-white">
+      <div className="flex flex-row  justify-center max-w-screen-lg  h-full">
         <div className="pb-8">
-            <p className="text-4xl font-bold inline border-b-4 border-gray-500">Contact</p>
+            <p className="text-4xl font-bold inline border-b-4 border-gray-500 p-2">Contact</p>
             <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex flex-row justify-center items-center mx-28">
             <form action="" className="flex flex-col w-full md:1/2" >
                 <input type="text"
                 name="name"

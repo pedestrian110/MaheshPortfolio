@@ -8,10 +8,10 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div>
-      <NavBar/>
-      <Home/>
+     <NavBar/>
+     <Home/>
       <Social/>
-      <About/>
+     <About/>
       <Portfolio/>
       <Experiences/>
       <Contact/>
