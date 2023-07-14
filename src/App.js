@@ -9,9 +9,9 @@ function App() {
   return (
     <div>
      <NavBar/>
-     <Home/>
+      <Home/>
       <Social/>
-     <About/>
+      <About/>
       <Portfolio/>
       <Experiences/>
       <Contact/>
