@@ -8,10 +8,10 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
            <div className=" flex flex-col justify-center h-full">
               <h2 className="text-4xl sm:text-7xl font-bold text-white">I am Full stack developer</h2>
-              <p className="text-gray-500 py-4 max-w-md">I am doing stuffs releted to cp and ai 
+              <p className="text-gray-500 py-4 max-w-md">I am doing stuffs related to cp and AI 
                 and also open source ,
                 understanding how tech stack are use in tech company
-                I am doing stuffs releted to cp and ai 
+                I am doing stuffs related to cp and AI 
                 and also open source ,
                 understanding how tech stack are use in tech company
                 </p>
