@@ -11,7 +11,7 @@ const Home = () => {
               <p className="text-gray-500 py-4 max-w-md">I am doing stuffs related to cp and AI 
                 and also open source ,
                 understanding how tech stack are use in tech company
-                I am doing stuffs releted to cp and AI 
+                I am doing stuffs related to cp and AI 
                 and also open source ,
                 understanding how tech stack are use in tech company
                 </p>
